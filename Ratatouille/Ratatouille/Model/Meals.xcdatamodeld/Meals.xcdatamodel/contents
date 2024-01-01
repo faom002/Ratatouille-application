@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E252" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Archive" representedClassName="Archive" syncable="YES" codeGenerationType="class">
+        <attribute name="archiveDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fromArea" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="fromCategory" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="fromIngredient" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="fromMeal" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="idMeal" optional="YES" attributeType="String"/>
+        <attribute name="strArea" optional="YES" attributeType="String"/>
+        <attribute name="strCategory" optional="YES" attributeType="String"/>
+        <attribute name="streMeasure16" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient1" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient2" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient3" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient4" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient5" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient6" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient7" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient8" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient9" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient10" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient11" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient12" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient13" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient14" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient15" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient16" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient17" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient18" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient19" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient20" optional="YES" attributeType="String"/>
+        <attribute name="strInstructions" optional="YES" attributeType="String"/>
+        <attribute name="strMeal" optional="YES" attributeType="String"/>
+        <attribute name="strMealThumb" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure1" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure2" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure3" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure4" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure5" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure6" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure7" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure8" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure9" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure10" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure11" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure12" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure13" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure14" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure15" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure16" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure17" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure18" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure19" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure20" optional="YES" attributeType="String"/>
+        <attribute name="strTags" optional="YES" attributeType="String"/>
+        <attribute name="strYoutube" optional="YES" attributeType="String"/>
+        <relationship name="area" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Area" inverseName="area" inverseEntity="Area"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="category" inverseEntity="Category"/>
+        <relationship name="ingredients" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ingredient" inverseName="ingredients" inverseEntity="Ingredient"/>
+        <relationship name="meal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meals" inverseName="meal" inverseEntity="Meals"/>
+    </entity>
+    <entity name="Area" representedClassName="Area" syncable="YES" codeGenerationType="class">
+        <attribute name="fromArea" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="idMeal" optional="YES" attributeType="String"/>
+        <attribute name="strArea" optional="YES" attributeType="String"/>
+        <attribute name="strCategory" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient1" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient2" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient3" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient4" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient5" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient6" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient7" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient8" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient9" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient10" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient11" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient12" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient13" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient14" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient15" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient16" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient17" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient18" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient19" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient20" optional="YES" attributeType="String"/>
+        <attribute name="strInstructions" optional="YES" attributeType="String"/>
+        <attribute name="strMeal" optional="YES" attributeType="String"/>
+        <attribute name="strMealThumb" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure1" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure2" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure3" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure4" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure5" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure6" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure7" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure8" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure9" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure10" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure11" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure12" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure13" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure14" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure15" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure16" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure17" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure18" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure19" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure20" optional="YES" attributeType="String"/>
+        <attribute name="strTags" optional="YES" attributeType="String"/>
+        <attribute name="strYoutube" optional="YES" attributeType="String"/>
+        <relationship name="area" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Archive" inverseName="area" inverseEntity="Archive"/>
+    </entity>
+    <entity name="Category" representedClassName="Category" syncable="YES" codeGenerationType="class">
+        <attribute name="fromCategory" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="idMeal" optional="YES" attributeType="String"/>
+        <attribute name="strArea" optional="YES" attributeType="String"/>
+        <attribute name="strCategory" optional="YES" attributeType="String"/>
+        <attribute name="strCatergory" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient1" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient2" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient3" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient4" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient5" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient6" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient7" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient8" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient9" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient10" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient11" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient12" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient13" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient14" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient15" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient16" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient17" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient18" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient19" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient20" optional="YES" attributeType="String"/>
+        <attribute name="strInstructions" optional="YES" attributeType="String"/>
+        <attribute name="strMeal" optional="YES" attributeType="String"/>
+        <attribute name="strMealThumb" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure1" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure2" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure3" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure4" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure5" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure6" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure7" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure8" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure9" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure10" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure11" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure12" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure13" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure14" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure15" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure16" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure17" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure18" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure19" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure20" optional="YES" attributeType="String"/>
+        <attribute name="strTags" optional="YES" attributeType="String"/>
+        <attribute name="strYoutube" optional="YES" attributeType="String"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Archive" inverseName="category" inverseEntity="Archive"/>
+    </entity>
+    <entity name="Ingredient" representedClassName="Ingredient" syncable="YES" codeGenerationType="class">
+        <attribute name="fromIngredient" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="idMeal" optional="YES" attributeType="String"/>
+        <attribute name="strArea" optional="YES" attributeType="String"/>
+        <attribute name="strCategory" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient1" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient2" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient3" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient4" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient5" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient6" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient7" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient8" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient9" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient10" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient11" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient12" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient13" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient14" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient15" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient16" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient17" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient18" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient19" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient20" optional="YES" attributeType="String"/>
+        <attribute name="strInstructions" optional="YES" attributeType="String"/>
+        <attribute name="strMeal" optional="YES" attributeType="String"/>
+        <attribute name="strMealThumb" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure1" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure2" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure3" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure4" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure5" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure6" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure7" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure8" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure9" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure10" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure11" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure12" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure13" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure14" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure15" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure16" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure17" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure18" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure19" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure20" optional="YES" attributeType="String"/>
+        <attribute name="strTags" optional="YES" attributeType="String"/>
+        <attribute name="strYoutube" optional="YES" attributeType="String"/>
+        <relationship name="ingredients" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Archive" inverseName="ingredients" inverseEntity="Archive"/>
+    </entity>
+    <entity name="Meals" representedClassName="Meals" syncable="YES" codeGenerationType="class">
+        <attribute name="fromMeal" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="idMeal" optional="YES" attributeType="String"/>
+        <attribute name="strArea" optional="YES" attributeType="String"/>
+        <attribute name="strCategory" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient1" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient2" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient3" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient4" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient5" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient6" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient7" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient8" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient9" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient10" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient11" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient12" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient13" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient14" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient15" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient16" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient17" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient18" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient19" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient20" optional="YES" attributeType="String"/>
+        <attribute name="strInstructions" optional="YES" attributeType="String"/>
+        <attribute name="strMeal" optional="YES" attributeType="String"/>
+        <attribute name="strMealThumb" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure1" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure2" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure3" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure4" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure5" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure6" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure7" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure8" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure9" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure10" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure11" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure12" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure13" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure14" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure15" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure16" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure17" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure18" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure19" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure20" optional="YES" attributeType="String"/>
+        <attribute name="strTags" optional="YES" attributeType="String"/>
+        <attribute name="strYoutube" optional="YES" attributeType="String"/>
+        <relationship name="meal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Archive" inverseName="meal" inverseEntity="Archive"/>
+    </entity>
+</model>
